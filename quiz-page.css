@@ -1,0 +1,28 @@
+* {
+   margin: 0;
+   box-sizing: border-box;
+}
+
+header {
+   background: #FFB997;
+   text-align: center;
+   font-family: FontAwesome;
+   font-size: 2em;
+   color: #0B032D;
+   padding: 30px;
+   width: 100%;
+   margin: auto;
+}
+
+#menu {
+	font-size: 0.9em;
+}
+
+#logo {
+	padding-bottom: 10px;
+}
+
+#logo > h3 > a:link, a:visited, a:hover, a:active {
+   color: inherit;
+   text-decoration: none;
+}

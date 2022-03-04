@@ -1,0 +1,71 @@
+<head>
+  <link rel="stylesheet" href="quiz.css">
+  <script src="js/main.js"></script>
+</head>
+
+<div class="start_btn">
+  <button>Тестілеуді бастау</button>
+</div>
+
+<div class="info_box">
+  <div class="info_title">
+    <span>Тесттің ережелері</span>
+  </div>
+
+  <div class="info_list">
+    <div class="info">1. Сізде бір сұраққа жауап беруге <span>15 секунд</span> бар</div>
+    <div class="info">2. Сұрақ жауабын басқанда оны өзгертуге болмайды</div>
+    <div class="info">3. Уақыт біткенде ешқандай жауап қабылданбайды</div>
+    <div class="info">4. Тестілеу аяқталғанша одан шығуға болмайды</div>
+    <div class="info">5. Ұпайлар сіздің дұрыс жауаптарыңызға байланысты жиналады</div>
+  </div>
+
+  <div class="buttons">
+    <button class="quit">Тестілеуді аяқтау</button>
+    <button class="restart">Бастау</button>
+  </div>
+</div>
+
+<div class="quiz_box">
+  <header>
+    <div class="title"> Тестілеу</div>
+    <div class="timer">
+      <div class="time_text">Уақыт қалды</div>
+      <div class="timer_sec">15</div>
+    </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">Келесі сұрақ</button>
+        </footer>
+    </div>
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Құттықтаймын, Сіз тестті аяқтадыңыз</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Қайта өту</button>
+            <button class="quit">Аяқтау</button>
+        </div>
+    </div>
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="js/questions.js"></script>
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="js/script.js"></script>
